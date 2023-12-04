@@ -265,8 +265,8 @@
 
 @media screen and (max-width: 768px) {
     .product {
-        height: 100vh; /* 100% dari tinggi layar */
-        overflow-y: auto; /* Tambahkan scrollbar jika kontennya lebih panjang dari tinggi layar */
+        height: 100vh; 
+        overflow-y: auto; 
     }
 
     .product .div {
@@ -286,8 +286,8 @@
     .product .overlap-2,
     .product .overlap-3,
     .product .overlap-4 {
-        margin-bottom: 20px; /* Sesuaikan nilai ini sesuai kebutuhan untuk memberi jarak antar elemen */
+        margin-bottom: 20px; 
     }
 
-    /* ... (seluruh styling lainnya yang ingin diubah sesuai dengan ukuran layar) ... */
+    
 }
