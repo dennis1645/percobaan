@@ -8,9 +8,11 @@
 
 .product .div {
     background-color: #000000;
-    width: 430px;
+    width: 100%;
     height: 932px;
     position: relative;
+    box-sizing: border-box; 
+    padding-right: 15px; 
 }
 
 .product .overlap {
@@ -259,4 +261,33 @@
     left: 14px;
     background-color: #ffffff;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .product {
+        height: 100vh; 
+        overflow-y: auto; 
+    }
+
+    .product .div {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .product .overlap {
+        
+        width: 100%;
+        height: auto;
+        bottom: 30px;
+        left: 0;
+    }
+
+    .product .overlap-2,
+    .product .overlap-3,
+    .product .overlap-4 {
+        margin-bottom: 20px; 
+    }
+
+   
 }
