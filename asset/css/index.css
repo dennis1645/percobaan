@@ -10,6 +10,11 @@ body {
 .card-offer {
   border: 1px solid black;
   padding: 10px;
-  width: 120px;
+  width: 150px;
   border-radius: 20px;
+}
+
+.card-navbar {
+  border-radius: 50px 50px 0px 0px;
+  padding: 15px;
 }
